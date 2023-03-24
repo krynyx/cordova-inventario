@@ -1,0 +1,30 @@
+<div class="row">
+	<div class="col-md-12">
+		<div class="form-group">
+			<label for="optOrdenarProdutos">Ordenar produtos por</label>
+			<select id="optOrdenarProdutos" class="form-control">
+				<option value="1">código do produto</option>
+				<option value="0">código da seção</option>
+				<option value="2">quantidade do produto</option>
+				<option value="none">ordem de inserção</option>
+			</select>
+		</div>
+		<table class="table table-sm table-striped border" id="tabelaDeProdutos">
+			<thead>
+				<tr><th colspan="4" class="bg-light text-center">PRODUTOS ADICIONADOS</th></tr>
+				<tr>
+					<th class="text-left">SEÇÃO</th>
+					<th class="text-left">PRODUTO</th>
+					<th class="text-right">QUANTIDADE</th>
+					<th class="text-right">OPÇÕES</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+		
+		<div class="form-group">
+			<button id="btnLimparDados" class="form-control btn btn-danger">REMOVER TODOS OS PRODUTOS</button>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Inventário</name>
+    <description>Um aplicativo de inventário.</description>
+    <author email="chrislleyalves@outlook.com" href="https://github.com/krynyx">
+        Kryz Silva
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <icon src="www/img/logo.png" />
+    <preference name="android-minSdkVersion" value="22"/>
+	<preference name="android-targetSdkVersion" value="30"/>
+</widget>
